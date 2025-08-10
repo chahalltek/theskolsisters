@@ -1,6 +1,6 @@
 export const dynamic = "error"; // enforce static, build-time FS
 
-import { getAllPosts } from '../../../lib/posts'; // relative import
+import { getAllPosts } from '../../lib/posts';
 import { getPostBySlug } from '../../../lib/posts';
 
 export async function generateStaticParams() {
