@@ -1,4 +1,7 @@
-import { getAllPosts, getPostBySlug } from '@/lib/posts';
+export const dynamic = "error"; // enforce static, build-time FS
+
+import { getAllPosts } from '../../../lib/posts'; // relative import
+import { getPostBySlug } from '../../../lib/posts';
 
 export async function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
