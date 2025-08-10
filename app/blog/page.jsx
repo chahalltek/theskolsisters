@@ -1,7 +1,7 @@
 export const dynamic = "error"; // build-time only
 
 import Link from 'next/link';
-import { getAllPosts } from '../../lib/posts';
+import { getAllPosts } from '@/lib/posts';
 
 export const metadata = {
   title: 'Blog — Skol Sisters',
