@@ -4,3 +4,4 @@
   - A (apex): `theskolsisters.com` → `76.76.21.21`
   - CNAME (www): `www` → `cname.vercel-dns.com`
 - Set `theskolsisters.com` as Primary and redirect `www` → apex.
+  
