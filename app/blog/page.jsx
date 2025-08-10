@@ -1,7 +1,8 @@
-export const dynamic = "error"; // enforce static, build-time FS
+export const dynamic = "error"; // build-time only
 
+import Link from 'next/link';
 import { getAllPosts } from '../../lib/posts';
-import { getPostBySlug } from '../../lib/posts';
+
 
 export async function generateStaticParams() {
   return getAllPosts().map((p) => ({ slug: p.slug }));
