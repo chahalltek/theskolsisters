@@ -11,7 +11,6 @@ export const metadata = {
     title: "The Skol Sisters",
     description: "Smart, sisterly fantasy football advice—with Skol spirit.",
     url: "https://theskolsisters.com",
-    images: ["/og.png"]
   },
 };
 
