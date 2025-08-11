@@ -1,10 +1,15 @@
 export const metadata = {
-  title: "Skol Sisters",
+  title: "The Skol Sisters",
   description: "Smart, sisterly fantasy football advice—with Skol spirit.",
   metadataBase: new URL("https://theskolsisters.com"),
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Skol Sisters",
+     images: ['/og/default-og.png'],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    images: ['/og/default-og.png'],
+    title: "The Skol Sisters",
     description: "Smart, sisterly fantasy football advice—with Skol spirit.",
     url: "https://theskolsisters.com",
     images: ["/og.png"]
