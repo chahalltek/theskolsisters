@@ -6,14 +6,13 @@ export const metadata = {
   openGraph: {
      images: ['/og/default-og.png'] },
   twitter: {
-    card: 'summary_large_image',
+    card: "summary_large_image", site: "@SkolSisters",
     images: ['/og/default-og.png'],
     title: "The Skol Sisters",
     description: "Smart, sisterly fantasy football advice—with Skol spirit.",
     url: "https://theskolsisters.com",
     images: ["/og.png"]
   },
-  twitter: { card: "summary_large_image", site: "@SkolSisters" }
 };
 
 import "./../styles/globals.css";
