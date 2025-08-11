@@ -4,8 +4,7 @@ export const metadata = {
   metadataBase: new URL("https://theskolsisters.com"),
   alternates: { canonical: "/" },
   openGraph: {
-     images: ['/og/default-og.png'],
-  },
+     images: ['/og/default-og.png'] },
   twitter: {
     card: 'summary_large_image',
     images: ['/og/default-og.png'],
