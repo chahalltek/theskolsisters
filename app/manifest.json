@@ -1,0 +1,19 @@
+{
+  "name": "Skol Sisters",
+  "short_name": "Skol Sisters",
+  "icons": [
+    {
+      "src": "/app/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/app/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#4F2683",
+  "background_color": "#101018",
+  "display": "standalone"
+}
