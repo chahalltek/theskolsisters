@@ -1,4 +1,7 @@
 // app/subscribe/page.jsx
+throw new Error("SUBSCRIBE SENTINEL");
+
+// app/subscribe/page.jsx
 export const metadata = { title: "Subscribe — The Skol Sisters" };
 
 export default function SubscribePage({ searchParams }) {
